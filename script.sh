@@ -5,10 +5,12 @@ echo "Hello World!"
 echo "VPN - wg0"
 sudo systemctl enable wg-quick@wg0
 sudo systemctl start wg-quick@wg0
+sudo systemctl status wg-quick@wg0
 
 echo "VPN - wg1"
 sudo systemctl enable wg-quick@wg1
 sudo systemctl start wg-quick@wg1
+sudo systemctl status wg-quick@wg1
 
 
 echo "Install Chrome Remote Desktop"
