@@ -21,5 +21,4 @@ sudo apt install -y /tmp/chrome-remote-desktop_current_amd64.deb
 sudo apt install -f
 
 echo "Run Chrome Remote Desktop"
-DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AQSTgQHD-gMzUrs23jBKXaeuxB2FKqpUDMgJZJ0-yVJmXnX7Ha83Zg5dHpXmkWNrfcB3rg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
-
+DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AQSTgQHBTZMISFT0Q1Cc51VjnMWmRrt2b9KfpHwc83i1dpbO-iR1dCbS22IkvwElY22O-A" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
